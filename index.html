@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="main" id="main">
+      <div class="calculator">
+        <div class="screen" id="screen"></div>
+        <div class="elements">
+          <div class="row1">
+            <button class="clear" onclick="passedvalue('')">C</button>
+            <button onclick="passedvalue('back')">Del</button>
+            <button onclick="passedvalue(`/`)">/</button>
+          </div>
+          <div class="row2">
+            <button onclick="passedvalue(7)">7</button>
+            <button onclick="passedvalue(8)">8</button>
+            <button onclick="passedvalue(9)">9</button>
+            <button onclick="passedvalue(`*`)">*</button>
+          </div>
+          <div class="row3">
+            <button onclick="passedvalue(4)">4</button>
+            <button onclick="passedvalue(5)">5</button>
+            <button onclick="passedvalue(6)">6</button>
+            <button onclick="passedvalue(`-`)">-</button>
+          </div>
+          <div class="row4">
+            <button onclick="passedvalue(1)">1</button>
+            <button onclick="passedvalue(2)">2</button>
+            <button onclick="passedvalue(3)">3</button>
+            <button onclick="passedvalue('+')">+</button>
+          </div>
+          <div class="row5">
+            <button onclick="passedvalue(0)">0</button>
+            <button class="equal" onclick="passedvalue('=')">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
