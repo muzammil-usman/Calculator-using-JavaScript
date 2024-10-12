@@ -40,13 +40,14 @@ button {
   justify-content: flex-end;
   margin: 20px 0;
   font-size: 2rem;
-  height: auto;
+  min-height: 60px;
+  max-height: auto;
   color: black;
-  /* text-wrap: wrap; */
   padding: 0 20px;
   overflow-wrap: anywhere;
   width: 330px;
   background-color: white;
+  border-radius: 10px;
 }
 .equal {
   width: 225px;
